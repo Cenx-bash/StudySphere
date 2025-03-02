@@ -9,6 +9,17 @@ We are committed to making StudySphere better every day. For one week, we will b
 Our goal is to create a smooth, reliable, and user-friendly platform that truly supports students in their academic journey. We appreciate your patience and cooperation as we continue to refine the app. Thank you for being part of StudySphere, and we look forward to making it even better together!
 
 
-**Contact Us**
-https://www.facebook.com/karlancel.dimabayao
-Karl Ancel( App developer )
+**Contact Me**
+
+If you find any bugs, errors, or issues while using StudySphere, please let me know! Your feedback is important and will help us improve the app for a better experience.
+
+📩 Message me on Facebook: https://www.facebook.com/karlancel.dimabayao
+📩 Send me an email: zenn.studio.01@gmail.com
+📩 Submit your report here: https://forms.gle/WTLqQ5PbDiTahyNB7
+
+✅ What to Report:
+Bugs, crashes, or glitches
+Slow performance or loading issues
+Features not working properly
+
+Feel free to report any problems or suggest new features that can make StudySphere better. Thank you for your support! 😊
