@@ -8,6 +8,9 @@ We are committed to making StudySphere better every day. For one week, we will b
 
 Our goal is to create a smooth, reliable, and user-friendly platform that truly supports students in their academic journey. We appreciate your patience and cooperation as we continue to refine the app. Thank you for being part of StudySphere, and we look forward to making it even better together!
 
+**Instruction/Manual**
+
+[maual.pdf](https://github.com/user-attachments/files/19084428/maual.pdf)
 
 **Contact Me:**
 
