@@ -10,6 +10,7 @@ Our goal is to create a smooth, reliable, and user-friendly platform that truly 
 
 **Instruction/Manual:**
 
+Here's the steps on how to install **StudySphere**
 [maual.pdf](https://github.com/user-attachments/files/19084428/maual.pdf)
 
 **Contact Me:**
