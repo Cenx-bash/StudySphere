@@ -1,7 +1,87 @@
 package com.example.studysphere;
 
 import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.graphics.Insets;
+import androidx.core.view.GravityCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import com.google.android.material.navigation.NavigationView;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
 
+import android.content.Intent;
+import android.content.BroadcastReceiver;
+import android.content.IntentFilter;
+import android.app.NotificationManager;
+import android.app.NotificationChannel;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import androidx.core.app.NotificationCompat;
+import android.app.Activity;
+import android.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.HorizontalScrollView;
+import androidx.annotation.NonNull;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.core.graphics.Insets;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -55,6 +135,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -282,7 +363,6 @@ public class MainActivity extends AppCompatActivity {
             noAlarmsText.setGravity(Gravity.CENTER);
             noAlarmsText.setPadding(50, 20, 50, 20);
 
-            // Center the TextView within its parent
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
                     LinearLayout.LayoutParams.WRAP_CONTENT
@@ -319,7 +399,6 @@ public class MainActivity extends AppCompatActivity {
         preferences = getSharedPreferences(PREF_NAME, MODE_PRIVATE);
         Map<String, Integer> usageData = getTrackedUsage();
 
-        // Create a layout for better styling
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
         layout.setPadding(50, 30, 50, 30);
@@ -373,7 +452,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // Retrieve data from SharedPreferences
     private Map<String, Integer> getTrackedUsage() {
         preferences = getSharedPreferences(PREF_NAME, MODE_PRIVATE);
         Map<String, Integer> data = new HashMap<>();
@@ -460,7 +538,6 @@ public class MainActivity extends AppCompatActivity {
                 "That's the beauty of love, knowing the risk of heartbreak but still fall in love anyway bc it will be worth it at the end of it all.",
                 "Small steps in the right direction can turn out to be the biggest step of your life.",
                 "Make your life a masterpiece; imagine no limitations on what you can be, have, or do.",
-                // Additional Motivation Quotes
                 "The only way to do great work is to love what you do.",
                 "Don’t watch the clock; do what it does. Keep going.",
                 "Success is the sum of small efforts, repeated day in and day out.",
@@ -781,4 +858,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
 }
