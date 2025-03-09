@@ -137,7 +137,7 @@ import java.util.Random;
 import java.util.Set;
 
 
-public class MainActivity extends AppCompatActivity {
+public class SystemActivity extends AppCompatActivity {
 
     private static final String PREFERENCES_FILE = "com.example.studysphere.PREFERENCES";
     private static final String KEY_RECENT_ITEMS = "recent_items";
