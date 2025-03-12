@@ -10,17 +10,12 @@ Our goal is to create a smooth, reliable, and user-friendly platform that truly 
 
 **Instruction/Manual:**
 
-Here's the steps on how to install **StudySphere**
-[maual.pdf](https://github.com/user-attachments/files/19084428/maual.pdf)
-
 **Contact Me:**
 
 If you find any bugs, errors, or issues while using StudySphere, please let me know! Your feedback is important and will help us improve the app for a better experience.
 
 
 📩 Message me on Facebook: https://www.facebook.com/karlancel.dimabayao
-
-📩 Send me an email: zenn.studio.01@gmail.com
 
 📩 Submit your report here: https://forms.gle/WTLqQ5PbDiTahyNB7
 
