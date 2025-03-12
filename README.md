@@ -3,7 +3,8 @@
 StudySphere is a 3-in-1 educational app designed to help students improve their learning experience. It combines study tools, academic organization, and productivity features in one easy-to-use platform. With StudySphere, students can manage their resources, stay organized, and stay focused on their studies. Whether reviewing lessons, tracking assignments, or working with classmates, this app has everything needed for academic success. Stay ahead in your studies with StudySphere—where learning becomes easier and more effective.  
 
 **Steps on downloading**
-[Uploading How to Download.docx…]()
+[How to Download.docx](https://github.com/user-attachments/files/19210329/How.to.Download.docx)
+
 
 **Important Notice:**
 
