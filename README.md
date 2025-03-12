@@ -8,8 +8,6 @@ We are committed to making StudySphere, we will be actively improving the app ba
 
 Our goal is to create a smooth, reliable, and user-friendly platform that truly supports students in their academic journey. We appreciate your patience and cooperation as we continue to refine the app. Thank you for being part of StudySphere, and we look forward to making it even better together!
 
-**Instruction/Manual:**
-
 **Contact Me:**
 
 If you find any bugs, errors, or issues while using StudySphere, please let me know! Your feedback is important and will help us improve the app for a better experience.
